@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOBILE | Premium Store</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader"><div class="spinner"></div></div>
+
+<!-- FLOATING ORDER BUTTON -->
+<div class="floating-order" onclick="quickOrder()">ORDER NOW</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+<h2>MOBILE</h2>
+<nav>
+<a href="#home">Home</a>
+<a href="#gallery">Products</a>
+<a href="#menu">Menu</a>
+<a href="#about">About</a>
+<a href="#why">Why Us</a>
+<a href="#terms">Terms</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero reveal">
+<h1>MOBILE</h1>
+<p>Premium Products • Fast • Trusted Service</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="reveal">
+<h2>Featured Products</h2>
+
+<div class="product-grid">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.22 (2).jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.22 (3).jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.22.jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.23 (1).jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.23.jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.24.jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.20.jpeg">
+<img src="image/WhatsApp Image 2026-05-03 at 14.44.22 (1).jpeg">
+</div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="reveal">
+<h2>Product Menu</h2>
+
+<div class="menu-grid">
+<div class="card"><h3>Aces</h3><button onclick="order('Aces')">Order</button></div>
+<div class="card"><h3>Fryds</h3><button onclick="order('Fryds')">Order</button></div>
+<div class="card"><h3>Wholemelts</h3><button onclick="order('Wholemelts')">Order</button></div>
+<div class="card"><h3>Big Chiefs</h3><button onclick="order('Big Chiefs')">Order</button></div>
+<div class="card"><h3>Geek Bars</h3><button onclick="order('Geek Bars')">Order</button></div>
+<div class="card"><h3>Alcohol</h3><button onclick="order('Alcohol')">Order</button></div>
+<div class="card"><h3>Za</h3><button onclick="order('Za')">Order</button></div>
+<div class="card"><h3>Glocks</h3><button onclick="order('Glocks')">Order</button></div>
+<div class="card"><h3>Pills</h3><button onclick="order('Pills')">Order</button></div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+<h2>About Us</h2>
+<p class="about">
+MOBILE provides premium products with fast service, reliable delivery, and a smooth WhatsApp ordering experience.
+</p>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="reveal">
+<h2>Why Choose Us</h2>
+
+<div class="why-grid">
+<div class="why-card"><i class="fas fa-bolt"></i><h3>Fast</h3></div>
+<div class="why-card"><i class="fas fa-shield-alt"></i><h3>Trusted</h3></div>
+<div class="why-card"><i class="fas fa-mobile-alt"></i><h3>Mobile Friendly</h3></div>
+<div class="why-card"><i class="fas fa-star"></i><h3>Premium</h3></div>
+</div>
+</section>
+
+<!-- TERMS -->
+<section id="terms" class="reveal">
+<h2>Terms & Conditions</h2>
+
+<div class="terms-box">
+<p>
+For the safety of both clients and business, we do not accept cash payments on first order.
+First purchases require verified electronic payment.
+</p>
+
+<p>
+Cash may be available for repeat customers.
+</p>
+</div>
+
+<!-- BIG ORDER BUTTON -->
+<div class="order-big">
+<button onclick="quickOrder()">ORDER NOW</button>
+</div>
+</section>
+
+<!-- FINAL MESSAGE -->
+<section class="final-message reveal">
+<p>
+“Quality and customer satisfaction are our priority.”
+</p>
+</section>
+
+<!-- MODAL -->
+<div id="modal"><img id="modalImg"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
